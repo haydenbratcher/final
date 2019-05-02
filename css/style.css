@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+#header {
+  border: solid 1px #000;
+  height: 49px;
+  background-color: #206e9f;
+  text-align: right;
+}
+
+body {
+  margin:0;
+  padding:0;
+  background-color:white;
+ }
+ul {
+  margin: 0px; 
+  list-style:none;
+  padding:0px; 
+}
+
+#console-box{
+  position:absolute;
+  top:50px; 
+  right:50px;
+  height:300px;
+  width:200px;
+  background-color:#000;
+  color: white;
+  font-family: Source Sans Pro;
+  padding:6px; 
+}
+img{
+height:500px;
+
+}
+
+.Semester {
+  list-style:none; 
+  display:flex;
+  width: 150px;
+  height: 200px; 
+  flex-flow: column; 
+  border: solid 1px; 
+  float: left; 
+}
+.Season {
+  height:50px;
+  width:100px;
+  background: #206e9f;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.Years {
+  list-style:none; 
+  display:flex;
+  width: 250px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: solid 1px; 
+  clear: right;  
+}
+.Year {
+  height:45px;
+  width:50px;
+  background: #206e9f;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.selected {
+  background-color: tomato;
+  font-weight: bold; 
+}
